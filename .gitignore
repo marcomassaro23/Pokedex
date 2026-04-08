@@ -1,5 +1,20 @@
-# Ignore Gradle project-specific cache directory
-.gradle
+# Blocca le cartelle di Gradle ovunque si trovino
+.gradle/
+**/build/
 
-# Ignore Gradle build output directory
-build
+# Blocca i file compilati di Java
+*.class
+**/bin/
+**/out/
+
+# Blocca le configurazioni degli IDE (fondamentale)
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Mantieni i wrapper di Gradle (servono per far girare il progetto altrove)
+!gradle-wrapper.jar
+!gradlew
+!gradlew.bat

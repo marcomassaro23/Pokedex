@@ -1,0 +1,6 @@
+package mdp2026.pokedex.model;
+
+public enum Tipo {
+    Normale, Fuoco, Acqua, Erba, Elettro, Ghiaccio, Lotta, Veleno, Terra, Volante, Psico, Coleottero, Roccia, Spettro,
+    Drago, Buio, Acciaio, Folletto
+}
