@@ -1,7 +1,5 @@
 package mdp2026.pokedex;
 
-import org.checkerframework.checker.units.qual.s;
-
 import mdp2026.pokedex.model.Pokedex;
 import mdp2026.pokedex.service.PokedexLoader;
 
